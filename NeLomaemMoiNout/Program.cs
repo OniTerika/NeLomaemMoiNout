@@ -9,7 +9,8 @@ namespace Sandbox
         static void Main()
         {
 
-
+            System.Console.OutputEncoding = System.Text.Encoding.UTF8;
+            System.Console.InputEncoding = System.Text.Encoding.UTF8;
 
             Random rnd = new Random();
 
